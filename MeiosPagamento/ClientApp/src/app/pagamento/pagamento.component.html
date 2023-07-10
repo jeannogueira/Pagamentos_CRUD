@@ -1,0 +1,58 @@
+<h1>Meus Pagamentos</h1>
+
+<form>
+  <div class="form-group">
+    <label>Nome Cliente:</label>
+    <input type="text" class="form-control" id="InputNome" [(ngModel)]="pagamento.nomeCliente" name="nomeCliente" required>
+  </div>
+  <div class="form-group">
+    <label>Valor:</label>
+    <input type="number" class="form-control" id="InputValor" [(ngModel)]="pagamento.valor" name="valor" required>
+  </div>
+  <div class="form-group">
+    <label>Tipo Pagamento:</label>
+    <select class="form-control" id="InputTipoPagamento" [(ngModel)]="pagamento.tipoPagamento" name="tipoPagamento" (change)="changeTipoPagamento(pagamento.tipoPagamento)">
+      <option value="Boleto">Boleto</option>
+      <option value="Pix">Pix</option>
+    </select>
+  </div> 
+  <div class="form-group">
+    <ng-container *ngIf="tipo_template === 1">
+      <label>Linha Digitável:</label>
+    </ng-container>
+    <ng-container *ngIf="tipo_template === 2"> 
+      <label>QRCode:</label>
+    </ng-container>
+    <input type="text" class="form-control" id="InputInformacaoPagamento" [(ngModel)]="pagamento.informacaoPagamento" name="informacaoPagamento" required>
+  </div>  
+    <button type="submit" class="btn btn-primary" (click)="save()">Cadastrar</button>
+    <button type="submit" class="btn btn-primary" (click)="listar()">Listar</button>
+</form>
+
+<table class='table table-striped' aria-labelledby="tableLabel">
+  <thead>
+    <tr>
+      <th>Nome do Cliente</th>
+      <th>Valor</th>
+      <th>Tipo Pagamento</th>
+      <th>Código Pagamento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pagamento of pagamentos">
+      <td style= "vertical-align:middle !important"><input type="text" class="form-control" id="InputNome" [(ngModel)]="pagamento.nomeCliente" name="nomeCliente"></td>
+      <td style= "vertical-align:middle !important"><input type="number" class="form-control" id="InputValor" [(ngModel)]="pagamento.valor" name="valor"></td>
+      <td style="vertical-align:middle !important">
+        <select class="form-control" id="InputTipoPagamento" [(ngModel)]="pagamento.tipoPagamento" name="tipoPagamento">
+          <option selected value="Boleto">Boleto</option>
+          <option value="Pix">Pix</option>
+        </select>
+      </td>
+      <td style= "vertical-align:middle !important"><input type="text" class="form-control" id="InputInformacaoPagamento" [(ngModel)]="pagamento.informacaoPagamento" name="informacaoPagamento"></td>
+      <td>
+        <button class="btn-primary" (click)="edit(pagamento)">Editar</button>
+        <button class="btn-danger" (click)="delete(pagamento.codigo)">Excluir</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

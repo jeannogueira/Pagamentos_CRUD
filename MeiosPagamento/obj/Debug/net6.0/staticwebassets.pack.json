@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Larissa\\Desktop\\MeiosPagamento\\MeiosPagamento\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MeiosPagamento.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MeiosPagamento.props",
+      "PackagePath": "build\\MeiosPagamento.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MeiosPagamento.props",
+      "PackagePath": "buildMultiTargeting\\MeiosPagamento.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MeiosPagamento.props",
+      "PackagePath": "buildTransitive\\MeiosPagamento.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

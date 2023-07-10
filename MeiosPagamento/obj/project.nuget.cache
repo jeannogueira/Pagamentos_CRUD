@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2c5qFR0w++s+TCqdGbeIckF2kjihCeqTxz2mZNxsabRvwiDdo8orLydDJ9RFwGb/0t2tymH74s6yK5iay3O22w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Larissa\\Desktop\\git\\CRUD_Pagamentos\\MeiosPagamento\\MeiosPagamento.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Larissa\\.nuget\\packages\\jquery\\3.7.0\\jquery.3.7.0.nupkg.sha512",
+    "C:\\Users\\Larissa\\.nuget\\packages\\jquery.typescript.definitelytyped\\3.1.2\\jquery.typescript.definitelytyped.3.1.2.nupkg.sha512",
+    "C:\\Users\\Larissa\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\6.0.16\\microsoft.aspnetcore.spaproxy.6.0.16.nupkg.sha512",
+    "C:\\Users\\Larissa\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\Larissa\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Larissa\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeiosPagamento", "MeiosPagamento\MeiosPagamento.csproj", "{5AD8BD8A-E3DA-47EC-B17B-D45CD72265CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AD8BD8A-E3DA-47EC-B17B-D45CD72265CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD8BD8A-E3DA-47EC-B17B-D45CD72265CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD8BD8A-E3DA-47EC-B17B-D45CD72265CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD8BD8A-E3DA-47EC-B17B-D45CD72265CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC8125DF-C870-406C-99C2-84B08706BF17}
+	EndGlobalSection
+EndGlobal

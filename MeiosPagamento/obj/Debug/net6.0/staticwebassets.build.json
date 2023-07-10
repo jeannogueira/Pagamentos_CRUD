@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "hgbc46TfZe9wIHwZl4G+FIw4WoXuIHdU9Mi2Xy0L2Kw=",
+  "Source": "MeiosPagamento",
+  "BasePath": "_content/MeiosPagamento",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MeiosPagamento\\wwwroot",
+      "Source": "MeiosPagamento",
+      "ContentRoot": "C:\\Users\\Larissa\\Desktop\\MeiosPagamento\\MeiosPagamento\\wwwroot\\",
+      "BasePath": "_content/MeiosPagamento",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Larissa\\Desktop\\MeiosPagamento\\MeiosPagamento\\wwwroot\\favicon.ico",
+      "SourceId": "MeiosPagamento",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Larissa\\Desktop\\MeiosPagamento\\MeiosPagamento\\wwwroot\\",
+      "BasePath": "_content/MeiosPagamento",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}
